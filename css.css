@@ -1,0 +1,128 @@
+body {
+	
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	background-image:url('image/body.gif');
+	background-repeat: no-repeat;
+	background-size: 1605px 1050px;	
+}
+
+
+footer{
+	background-image:url('image/footerclouds.jpg');
+	background-repeat: no-repeat;
+	background-size: 1605px 1050px;	
+}
+
+
+#content {
+	width: 540px;
+	text-align: left;
+    padding-left: 10px	
+}
+
+#logo{
+	width: 900px;
+	height: 150px;
+}
+
+#homepage{
+    width: 550px;
+	height: 250px;
+}
+
+#container {
+	text-align: left;
+	width: 900px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url('image/title.png');
+	background-repeat:;
+	background-size: 1605px 1050px;
+	padding-left: 10px;
+	 	
+}
+
+h1{
+    text-align: center;
+	font-size: 35px;
+	padding-bottom: 2px;  
+	font-family: Verdana;
+}
+
+h2{
+    text-align: left;
+	font-size: 30px;
+	padding-bottom: 2px;  
+	font-family: Verdana;
+}
+
+nav{
+   padding-left: 10px;	
+   padding-bottom: 1cm;  
+}
+
+
+#middle{
+	overflow: auto; 
+	
+}
+
+p{
+	background-image:url('image/container.jpg');
+	background-repeat: no-repeat;
+	background-size: 1600px 650px;
+	font-family: Monaco;
+	padding-left: 10px
+	
+
+}
+
+
+
+/* Drop Down menu from the Web */
+ul {
+    font-family: Verdana;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+li ul {
+    display: none;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #C0C0C0;
+    border-top: 0px solid #C0C0C0;
+    padding: 5px 20px 5px 20px;
+    background: #1e7c9a;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+ul li a:hover {
+	background: #00003b;
+}
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+li:hover li {
+    float: none;
+    font-size: 20px;
+}
+li:hover a { 
+	background: #3b3b3b; 
+}
+li:hover li a:hover {
+    background: #1e7c9a;
+}
+
+
